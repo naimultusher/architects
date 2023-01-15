@@ -289,5 +289,86 @@ footer {
         flex-direction: column;
     }
 
-    
+    .logo {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    header {
+        padding: 41px 95px;
+    }
+
+    .banner img {
+        width: 370px;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .features {
+        flex-direction: column-reverse;
+        padding: 85px 90px;
+        text-align: center;
+    }
+
+    .feature-title {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .feature-title .orange {
+        font-size: 34px;
+    }
+
+    .feature-info-des {
+        text-align: center;
+    }
+
+    .feature-images {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .about-features {
+        padding: 0 90px 0 90px;
+        flex-direction: column;
+    }
+
+    .feature-about-img img {
+        width: 348px;
+    }
+
+    .about-feature-title {
+        font-size: 36px;
+    }
+
+    .experience-title {
+        font-size: 38px;
+    }
+
+    .experience {
+        padding: 12px 9px;
+        border-radius: 8px;
+        width: 238px;
+        height: 144px;
+        margin-top: -91px;
+        margin-left: -90px;
+    }
+
+    .some-facts {
+        padding: 0 90px 0 90px;
+        text-align: center;
+    }
+
+    .portfolio {
+        flex-direction: column;
+    }
+
+    .sponsors {
+        padding: 0 90px 0 90px;
+    }
+
+    footer {
+        padding: 0 30px 0 30px;
+    }
 }
